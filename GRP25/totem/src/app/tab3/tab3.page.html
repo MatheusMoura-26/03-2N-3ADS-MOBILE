@@ -1,0 +1,24 @@
+<ion-card>
+  <ion-card-content>
+   <ion-list>
+     <ion-label>Relatório</ion-label>
+
+     <ion-item>
+       <ion-label>Senhas emitidas:</ion-label>
+       <ion-badge color="primary">{{senhasService.senhasTotal}}</ion-badge>
+     </ion-item>
+     <ion-item>
+       <ion-label>Senhas Geral:</ion-label>
+       <ion-badge color="tertiary">{{senhasService.senhasGeral}}</ion-badge>
+     </ion-item>
+     <ion-item>
+       <ion-label>Senhas Prioritárias:</ion-label>
+       <ion-badge color="danger">{{senhasService.senhasPrior}}</ion-badge>
+     </ion-item>
+     <ion-item>
+       <ion-label>Senhas de Exame:</ion-label>
+       <ion-badge color="warning">{{senhasService.senhasExame}}</ion-badge>
+     </ion-item>
+   </ion-list>
+ </ion-card-content>
+</ion-card>
